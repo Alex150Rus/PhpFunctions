@@ -1,22 +1,30 @@
 <?php
 
-$a = mt_rand(1,10);
-$b = mt_rand(1,10);
+$a = mt_rand(1, 10);
+$b = mt_rand(1, 10);
 
-function sum ($a, $b) {
-    return $a + $b;
+function sum($a, $b)
+{
+    $result = $a + $b;
+    return "cумма $a и $b = $result<br>";
 }
 
-function mult ($a, $b){
-    return $a * $b;
+function mult($a, $b)
+{
+    $result = $a * $b;
+    return "произведение $a и $b = $result<br>";;
 }
 
-function divide ($a, $b){
-    return $a / $b;
+function divide($a, $b)
+{
+    $result = $a / $b;
+    return "частное $a и $b = $result<br>";
 }
 
-function difference ($a, $b){
-    return $a - $b;
+function difference($a, $b)
+{
+    $result = $a - $b;
+    return "разность $a и $b = $result<br>";
 }
 
 $sum = sum($a, $b);
@@ -24,10 +32,8 @@ $mult = mult($a, $b);
 $divide = divide($a, $b);
 $diff = difference($a, $b);
 
-echo "a = $a, b = $b, сумма = $sum<br>";
-echo "a = $a, b = $b, произведение  = $mult<br>";
-echo "a = $a, b = $b, частное = $divide<br>";
-echo "a = $a, b = $b, разность = $diff<br>";
+echo "$sum $mult $divide $dif";
+
 
 /**
  * Created by PhpStorm.
