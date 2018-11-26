@@ -12,7 +12,7 @@ function sum($a, $b)
 function mult($a, $b)
 {
     $result = $a * $b;
-    return "произведение $a и $b = $result<br>";;
+    return "произведение $a и $b = $result<br>";
 }
 
 function divide($a, $b)
@@ -32,7 +32,7 @@ $mult = mult($a, $b);
 $divide = divide($a, $b);
 $diff = difference($a, $b);
 
-echo "$sum $mult $divide $dif";
+echo "$sum $mult $divide $diff";
 
 
 /**
