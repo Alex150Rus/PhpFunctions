@@ -52,7 +52,6 @@ switch ($a) {
     case 15:
         echo "переменная a = 15 (выведено с помощью switch)";
         break;
-
 }
 
 /**
