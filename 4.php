@@ -32,7 +32,7 @@ function sum($a, $b)
 function mult($a, $b)
 {
     $result = $a * $b;
-    return "произведение $a и $b = $result<br>";;
+    return "произведение $a и $b = $result<br>";
 }
 
 function divide($a, $b)
